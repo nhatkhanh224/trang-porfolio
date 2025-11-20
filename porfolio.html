@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giới thiệu bản thân</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: #fff5f8;
+      color: #444;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #ffc6d9;
+      padding: 15px 0;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      color: #b40059;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4f8b;
+    }
+
+    .hero {
+      padding-top: 120px;
+      text-align: center;
+      padding-bottom: 60px;
+    }
+
+    .hero img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #ffc6d9;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+      color: #b40059;
+      margin: 0;
+    }
+
+    .section-title {
+      font-size: 34px;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      color: #d11d6a;
+      font-weight: 700;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffe9f0;
+      padding: 25px;
+      border-radius: 18px;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .skill-item {
+      background: #ffc6d9;
+      padding: 12px;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: 600;
+      color: #8b004a;
+      transition: 0.3s;
+    }
+
+    .skill-item:hover {
+      background: #ff8db4;
+      color: #fff;
+    }
+
+    footer {
+      background: #ffc6d9;
+      padding: 20px;
+      text-align: center;
+      color: #8b004a;
+      margin-top: 60px;
+      font-weight: 600;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Smooth scroll + offset fix for fixed header */
+    section {
+      scroll-margin-top: 100px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#kynang">Kỹ năng</a>
+    <a href="#sothich">Sở thích</a>
+    <a href="#lienhe">Liên hệ</a>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <img src="./trang.jpg" />
+  <h1>Xin Chào, Mình Là Nguyễn Quỳnh Trang</h1>
+  <p>Sinh viên năm 3 • Thương mại điện tử • Đại học Duy Tân</p>
+</section>
+
+<section id="gioithieu" class="container">
+  <h2 class="section-title">Giới thiệu về tôi</h2>
+  <div class="card">
+    <p>
+      Tôi là <strong>Nguyễn Quỳnh Trang</strong>, sinh viên năm 3, là một người năng động và có tinh thần học hỏi cao.
+      Tôi luôn cố gắng phát triển bản thân thông qua việc tham gia các hoạt động thực tế và trau dồi kỹ năng nghề nghiệp.
+    </p>
+    <p>
+      Tôi có định hướng theo các vị trí liên quan đến <strong>truyền thông – nội dung – bán hàng – marketing</strong> và
+      đang từng bước tích lũy kinh nghiệm để đạt được mục tiêu nghề nghiệp trong tương lai.
+    </p>
+  </div>
+</section>
+
+<section id="kynang" class="container">
+  <h2 class="section-title">Điểm mạnh & Kỹ năng</h2>
+  <div class="card">
+    <p><strong>Điểm mạnh:</strong></p>
+    <ul>
+      <li>Khả năng giao tiếp tốt, tự tin và linh hoạt trong nhiều tình huống.</li>
+      <li>Kỹ năng viết nội dung, trình bày ý tưởng rõ ràng.</li>
+      <li>Tinh thần trách nhiệm, làm việc độc lập tốt và phối hợp nhóm hiệu quả.</li>
+      <li>Chủ động học hỏi, thích nghi nhanh với môi trường mới.</li>
+      <li>Tư duy sáng tạo, tìm giải pháp khi gặp vấn đề.</li>
+    </ul>
+    <br>
+    <p><strong>Kỹ năng:</strong></p>
+    <ul>
+      <li>Thành thạo tiếng Anh cơ bản.</li>
+      <li>Tin học văn phòng.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="sothich" class="container">
+  <h2 class="section-title">Kinh nghiệm</h2>
+  <div class="card">
+    <p><strong>Livestream bán sản phẩm:</strong></p>
+    <ul>
+      <li>Thực hiện nhiều buổi livestream giới thiệu sản phẩm, tương tác và chốt đơn với khách hàng.</li>
+      <li>Biết cách tạo không khí thu hút, dẫn dắt nội dung và xử lý tình huống trực tiếp.</li>
+    </ul>
+
+    <p><strong>Viết content cho Tcons:</strong></p>
+    <ul>
+      <li>Thực hiện bài viết quảng cáo, giới thiệu sản phẩm/dịch vụ.</li>
+      <li>Lên ý tưởng nội dung theo yêu cầu và tối ưu câu chữ thu hút người xem.</li>
+      <li>Hỗ trợ xây dựng hình ảnh thương hiệu thông qua nội dung trên mạng xã hội.</li>
+    </ul>
+
+    <p><strong>Chứng chỉ:</strong></p>
+    <ul>
+      <li>Digital Marketing</li>
+      <li>TOEIC 500</li>
+    </ul>
+  </div>
+</section>
+
+<section id="lienhe" class="container">
+  <h2 class="section-title">Liên hệ</h2>
+  <div class="card">
+    <p>Nếu bạn muốn hợp tác hoặc đơn giản là kết bạn, hãy liên hệ với mình nhé 💗</p>
+    <p><strong>Email:</strong> quynhtrangv@example.com</p>
+    <p><strong>Instagram:</strong> @quyanhtrang</p>
+    <p><strong>Facebook:</strong> fb.com/quyanhtrang</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 QuynhTrang — Designed with love 💗
+</footer>
+
+<script>
+  // Smooth scroll with easing
+  document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      const top = target.offsetTop - 80;
+      window.scrollTo({ top, behavior: 'smooth' });
+    });
+  });
+</script>
+</body>
+</html>
